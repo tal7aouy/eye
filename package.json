@@ -1,0 +1,54 @@
+{
+  "name": "eye",
+  "displayName": "Eye",
+  "description": "A Visual Studio Code theme for developers who code at night",
+  "publisher": "tal7aouy",
+  "__metadata": {
+    "publisherDisplayName": "tal7aouy"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#011627",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Eye",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eye-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tal7aouy/eye"
+  },
+  "keywords": [
+    "theme",
+    "eye",
+    "theme",
+    "light",
+    "dark",
+    "talhaouy"
+  ],
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "vsce": "^2.6.3"
+  },
+  "bugs": {
+    "url": "https://github.com/tal7aouy/eye/issues"
+  },
+  "homepage": "https://github.com/tal7aouy/eye#readme"
+}
